@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 class StringOperatorTest {
 
     @Test
-    fun addOperator() {
+    fun `두 피연산자에 대한 덧셈 연산자의 결괏값 검증`() {
         // given
         val lhs = Operand(20)
         val rhs = Operand(10)
@@ -19,7 +19,7 @@ class StringOperatorTest {
     }
 
     @Test
-    fun minusOperator() {
+    fun `두 피연산자에 대한 뺄셈 연산자의 결괏값 검증`() {
         // given
         val lhs = Operand(20)
         val rhs = Operand(10)
@@ -32,7 +32,7 @@ class StringOperatorTest {
     }
 
     @Test
-    fun timesOperator() {
+    fun `두 피연산자에 대한 곱셈 연산자의 결괏값 검증`() {
         // given
         val lhs = Operand(20)
         val rhs = Operand(10)
@@ -45,7 +45,7 @@ class StringOperatorTest {
     }
 
     @Test
-    fun divOperator() {
+    fun `두 피연산자에 대한 나눗셈 연산자의 결괏값 검증`() {
         // given
         val lhs = Operand(20)
         val rhs = Operand(10)
